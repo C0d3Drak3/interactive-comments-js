@@ -7,9 +7,6 @@ export default function Home() {
   const { getItem, setItem } = useLocalStorage("myData");
   const [commentsLoaded, setCommentsLoaded] = useState(false);
 
-  // Defining interfaces
-  // Removed as interfaces are not needed in JavaScript
-
   //Función para cambiar las fechas del data.json a un formato legible por la función en comments
   const updateTimestamps = (data) => {
     // Iterating over comments

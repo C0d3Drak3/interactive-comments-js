@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Comment from "./comment.js";
-import NewComment from "./newComment.js";
+import Comment from "./comment";
+import NewComment from "./newComment";
 import { useLocalStorage } from "./useLocalStorage";
 
 const Comments = () => {
