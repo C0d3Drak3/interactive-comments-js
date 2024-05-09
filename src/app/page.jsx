@@ -44,6 +44,7 @@ export default function Home() {
         });
     } else {
       setCommentsLoaded(true); // Set as loaded if data is already in localStorage
+      console.log("Data already in localStore:");
     }
   }, [getItem, setItem]);
 
