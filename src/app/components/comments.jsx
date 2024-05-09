@@ -145,10 +145,10 @@ const Comments = () => {
       return comment;
     });
 
-    // Actualizar el estado de los comentarios con los comentarios actualizados
+    // Actualiza el estado de los comentarios con los comentarios actualizados
     setComments(updatedComments);
 
-    // Guardar los comentarios actualizados en el localStorage
+    // Guarda los comentarios actualizados en el localStorage
     setItem({
       ...getItem(),
       comments: updatedComments,

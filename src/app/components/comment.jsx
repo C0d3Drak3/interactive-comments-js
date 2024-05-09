@@ -276,7 +276,7 @@ const Comment = ({
                       />
                       Delete
                     </button>
-                    {/* Renderizar el modal de confirmación */}
+                    {/* MODAL */}
                     {showModal && (
                       <div className="fixed inset-0 flex items-center justify-center z-10 bg-black/50">
                         <div className=" bg-white rounded-lg  w-[400px] h-[270px] p-9">
@@ -433,7 +433,7 @@ const Comment = ({
                     />
                     Delete
                   </button>
-                  {/* Renderizar el modal de confirmación */}
+                  {/*MOBILE MODAL */}
                   {showModal && (
                     <div className="fixed inset-0 flex items-center justify-center z-10 bg-black/50">
                       <div className=" bg-white rounded-lg  w-[400px] h-[270px] p-9">
